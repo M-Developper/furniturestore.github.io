@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./css/normalize.css"> <!-- normalize -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Header Section Starts Here -->
+    <header class="header" id="header">
+        <a href="#" class="logo">
+            <i class="fas fa-lightbulb"></i>
+            furnishop
+        </a>
+        <nav class="navbar-links">
+            <a href="#home" class="is-displayed">home</a>
+            <a href="#products">products</a>
+            <a href="#about">about</a>
+            <a href="#team">team</a>
+            <a href="#blogs">blogs</a>
+            <a href="#contact">contact</a>
+        </nav>
+        <div class="header-icons">
+            <div class="fas fa-bars" id="navbar-button"></div>
+            <div class="fas fa-search" id="search-button"></div>
+            <div class="fas fa-user" id="user-button"></div>
+        </div>
+        <!-- Search Form -->
+        <form action="" class="search-form">
+            <i class="fas fa-times" id="closer"></i>
+            <input type="search" placeholder="search here..." class="search-box" id="search-box">
+            <label class="fas fa-search" for="search-box"></label>
+        </form>
+        <!-- User Form -->
+        <div class="user-form">
+            <i class="fas fa-times" id="closer"></i>
+            <!-- Login -->
+            <div class="login is-displayed">
+                <form action="">
+                    <div><input type="email" placeholder="enter your email" class="box"></div>
+                    <div><input type="password" placeholder="enter your password" class="box"></div>
+                    <div class="remember-me">
+                        <p>forgot password ? <a href="#">click here</a></p>
+                        <input type="checkbox" name="" id="remember-me">
+                        <label for="remember-me">remember me</label>
+                    </div>
+                    <input type="submit" value="login" class="button" id="login-btn">
+                    <p class="create-acc" id="create-acc">don't have an account? create one <i class="fas fa-angle-right"></i></p>
+                </form>
+            </div>
+            <!-- Create Account -->
+            <div class="create-account">
+                <div><input type="email" placeholder="enter your email" class="box"></div>
+                <div><input type="password" placeholder="enter your password" class="box"></div>
+                <div><input type="password" placeholder="confirm your password" class="box"></div>
+                <input type="submit" value="sign-out" id="signOut-btn" class="button">
+                <div class="back-to-login" id="back-to-login"><i class="fas fa-angle-left"></i> back to login</div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Section Ends Here -->
+
+    <!-- Home Section Ends Here -->
+    <section class="home" id="home">
+        <div class="slides-container">
+            <div class="slide is-displayed">
+                <div class="content">
+                    <h3>comfortable chair</h3>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Omnis, nesciunt officiis. Ullam ratione maxime rem reiciendis 
+                        praesentium. Maiores eius ea culpa sint, eum quod pariatur cum, 
+                        aut tenetur nemo repellendus!
+                    </p>
+                    <a href="#" class="button">shop now</a>
+                </div>
+                <div class="image">
+                    <img src="./assets/images/home-img-1.png" alt="">
+                </div>
+            </div>
+            <div class="slide">
+                <div class="content">
+                    <h3>conmfortable chair</h3>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Omnis, nesciunt officiis. Ullam ratione maxime rem reiciendis 
+                        praesentium. Maiores eius ea culpa sint, eum quod pariatur cum, 
+                        aut tenetur nemo repellendus!
+                    </p>
+                    <a href="#" class="button">shop now</a>
+                </div>
+                <div class="image">
+                    <img src="./assets/images/home-img-2.png" alt="">
+                </div>
+            </div>
+            <div id="slide-next" class="fas fa-angle-right"></div>
+            <div id="slide-prev" class="fas fa-angle-left"></div>
+        </div>
+    </section>
+    <!-- Home Section Ends Here -->
+
+    <!-- Banner Section Ends Here -->
+    <section class="banner-container">
+        <div class="banner">
+            <img src="./assets/images/banner-img-1.jpg" alt="">
+            <div class="content">
+                <span>limited offer</span>
+                <h3>upto 50% off</h3>
+                <a href="#" class="button">shop now</a>
+            </div>
+        </div>
+        <div class="banner">
+            <img src="./assets/images/banner-img-2.jpg" alt="">
+            <div class="content">
+                <span>limited offer</span>
+                <h3>upto 50% off</h3>
+                <a href="#" class="button">shop now</a>
+            </div>
+        </div>
+        <div class="banner">
+            <img src="./assets/images/banner-img-3.jpg" alt="">
+            <div class="content">
+                <span>limited offer</span>
+                <h3>upto 50% off</h3>
+                <a href="#" class="button">shop now</a>
+            </div>
+        </div>
+    </section>
+    <!-- Banner Section Ends Here -->
+
+    <!-- Category Section Starts Here -->
+    <section class="category">
+        <h1 class="heading">our <span>category</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="./assets/images/category-img-1.png" alt="">
+                <h3>house sofa</h3>
+            </div>
+            <div class="box">
+                <img src="./assets/images/category-img-2.png" alt="">
+                <h3>working desktop</h3>
+            </div>
+            <div class="box">
+                <img src="./assets/images/category-img-3.png" alt="">
+                <h3>corner table</h3>
+            </div>
+            <div class="box">
+                <img src="./assets/images/category-img-4.png" alt="">
+                <h3>office chair</h3>
+            </div>
+            <div class="box">
+                <img src="./assets/images/category-img-5.png" alt="">
+                <h3>wardrobe</h3>
+            </div>
+        </div>
+    </section>
+    <!-- Category Section Ends Here -->
+
+    <!-- Products Section Starts Here -->
+    <section class="products" id="products">
+        <h1 class="heading">our <span>products</span></h1>
+        <div class="box-container">
+            <div class="box" data-name="product-1">
+                <div class="icons">
+                    <div class="fas fa-shopping-cart"></div>
+                    <div class="fas fa-heart"></div>
+                    <div class="fas fa-eye" data-name="product-1"></div>
+                </div>
+                <div class="image">
+                    <img src="./assets/images/product-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <span class="price">$250.99</span>
+                    <h3>modern furniture</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span> (50) </span>
+                    </div>
+                </div>
+            </div>
+            <div class="box" data-name="product-2">
+                <div class="icons">
+                    <div class="fas fa-shopping-cart"></div>
+                    <div class="fas fa-heart"></div>
+                    <div class="fas fa-eye" data-name="product-2"></div>
+                </div>
+                <div class="image">
+                    <img src="./assets/images/product-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <span class="price">$250.99</span>
+                    <h3>modern furniture</h3>
+                    <div class="stars">
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <span> (50) </span>
+                    </div>
+                </div>
+            </div>
+            <div class="box" data-name="product-3">
+                <div class="icons">
+                    <div class="fas fa-shopping-cart"></div>
+                    <div class="fas fa-heart"></div>
+                    <div class="fas fa-eye" data-name="product-3"></div>
+                </div>
+                <div class="image">
+                    <img src="./assets/images/product-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <span class="price">$250.99</span>
+                    <h3>modern furniture</h3>
+                    <div class="stars">
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <span> (50) </span>
+                    </div>
+                </div>
+            </div>
+            <div class="box" data-name="product-4">
+                <div class="icons">
+                    <div class="fas fa-shopping-cart"></div>
+                    <div class="fas fa-heart"></div>
+                    <div class="fas fa-eye" data-name="product-4"></div>
+                </div>
+                <div class="image">
+                    <img src="./assets/images/product-4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <span class="price">$250.99</span>
+                    <h3>modern furniture</h3>
+                    <div class="stars">
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <span> (50) </span>
+                    </div>
+                </div>
+            </div>
+            <div class="box" data-name="product-5">
+                <div class="icons">
+                    <div class="fas fa-shopping-cart"></div>
+                    <div class="fas fa-heart"></div>
+                    <div class="fas fa-eye" data-name="product-5"></div>
+                </div>
+                <div class="image">
+                    <img src="./assets/images/product-5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <span class="price">$250.99</span>
+                    <h3>modern furniture</h3>
+                    <div class="stars">
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <span> (50) </span>
+                    </div>
+                </div>
+            </div>
+            <div class="box" data-name="product-6">
+                <div class="icons">
+                    <div class="fas fa-shopping-cart"></div>
+                    <div class="fas fa-heart"></div>
+                    <div class="fas fa-eye" data-name="product-6"></div>
+                </div>
+                <div class="image">
+                    <img src="./assets/images/product-6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <span class="price">$250.99</span>
+                    <h3>modern furniture</h3>
+                    <div class="stars">
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <span> (50) </span>
+                    </div>
+                </div>
+            </div>
+            <div class="box" data-name="product-7">
+                <div class="icons">
+                    <div class="fas fa-shopping-cart"></div>
+                    <div class="fas fa-heart"></div>
+                    <div class="fas fa-eye" data-name="product-7"></div>
+                </div>
+                <div class="image">
+                    <img src="./assets/images/product-7.jpg" alt="">
+                </div>
+                <div class="content">
+                    <span class="price">$250.99</span>
+                    <h3>modern furniture</h3>
+                    <div class="stars">
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <span> (50) </span>
+                    </div>
+                </div>
+            </div>
+            <div class="box" data-name="product-8">
+                <div class="icons">
+                    <div class="fas fa-shopping-cart"></div>
+                    <div class="fas fa-heart"></div>
+                    <div class="fas fa-eye" data-name="product-8"></div>
+                </div>
+                <div class="image">
+                    <img src="./assets/images/product-8.jpg" alt="">
+                </div>
+                <div class="content">
+                    <span class="price">$250.99</span>
+                    <h3>modern furniture</h3>
+                    <div class="stars">
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <span> (50) </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Products Details -->
+        <div class="products-details">
+            <div class="detail" data-target="product-1">
+                <i class="fas fa-times" id="close-detail"></i>
+                <img src="./assets/images/product-1.jpg" alt="">
+                <h3>modern furniture</h3>
+                <div class="stars">
+                    <div class="fas fa-star"></div>
+                    <div class="fas fa-star"></div>
+                    <div class="fas fa-star"></div>
+                    <div class="fas fa-star"></div>
+                    <div class="fas fa-star"></div>
+                    <span> (50) </span>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Exercitationem eaque temporibus possimus quia eos officiis 
+                    blanditiis quis laborum expedita aut fugit illo recusandae, quas 
+                    dolorum, officia ipsa facilis labore quidem.
+                </p>
+                <div class="price">$250.99</div>
+                <a href="#" class="button">buy now</a>
+            </div>
+            <div class="detail" data-target="product-2">
+                <i class="fas fa-times" id="close-detail"></i>
+                <img src="./assets/images/product-2.jpg" alt="">
+                <h3>modern furniture</h3>
+                <div class="stars">
+                    <div class="fas fa-star"></div>
+                    <div class="fas fa-star"></div>
+                    <div class="fas fa-star"></div>
+                    <div class="fas fa-star"></div>
+                    <div class="fas fa-star"></div>
+                    <span> (50) </span>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Exercitationem eaque temporibus possimus quia eos officiis 
+                    blanditiis quis laborum expedita aut fugit illo recusandae, quas 
+                    dolorum, officia ipsa facilis labore quidem.
+                </p>
+                <div class="price">$250.99</div>
+                <a href="#" class="button">buy now</a>
+            </div>
+            <div class="detail" data-target="product-3">
+                <i class="fas fa-times" id="close-detail"></i>
+                <img src="./assets/images/product-3.jpg" alt="">
+                <h3>modern furniture</h3>
+                <div class="stars">
+                    <div class="fas fa-star"></div>
+                    <div class="fas fa-star"></div>
+                    <div class="fas fa-star"></div>
+                    <div class="fas fa-star"></div>
+                    <div class="fas fa-star"></div>
+                    <span> (50) </span>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Exercitationem eaque temporibus possimus quia eos officiis 
+                    blanditiis quis laborum expedita aut fugit illo recusandae, quas 
+                    dolorum, officia ipsa facilis labore quidem.
+                </p>
+                <div class="price">$250.99</div>
+                <a href="#" class="button">buy now</a>
+            </div>
+            <div class="detail" data-target="product-4">
+                <i class="fas fa-times" id="close-detail"></i>
+                <img src="./assets/images/product-4.jpg" alt="">
+                <h3>modern furniture</h3>
+                <div class="stars">
+                    <div class="fas fa-star"></div>
+                    <div class="fas fa-star"></div>
+                    <div class="fas fa-star"></div>
+                    <div class="fas fa-star"></div>
+                    <div class="fas fa-star"></div>
+                    <span> (50) </span>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Exercitationem eaque temporibus possimus quia eos officiis 
+                    blanditiis quis laborum expedita aut fugit illo recusandae, quas 
+                    dolorum, officia ipsa facilis labore quidem.
+                </p>
+                <div class="price">$250.99</div>
+                <a href="#" class="button">buy now</a>
+            </div>
+            <div class="detail" data-target="product-5">
+                <i class="fas fa-times" id="close-detail"></i>
+                <img src="./assets/images/product-5.jpg" alt="">
+                <h3>modern furniture</h3>
+                <div class="stars">
+                    <div class="fas fa-star"></div>
+                    <div class="fas fa-star"></div>
+                    <div class="fas fa-star"></div>
+                    <div class="fas fa-star"></div>
+                    <div class="fas fa-star"></div>
+                    <span> (50) </span>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Exercitationem eaque temporibus possimus quia eos officiis 
+                    blanditiis quis laborum expedita aut fugit illo recusandae, quas 
+                    dolorum, officia ipsa facilis labore quidem.
+                </p>
+                <div class="price">$250.99</div>
+                <a href="#" class="button">buy now</a>
+            </div>
+            <div class="detail" data-target="product-6">
+                <i class="fas fa-times" id="close-detail"></i>
+                <img src="./assets/images/product-6.jpg" alt="">
+                <h3>modern furniture</h3>
+                <div class="stars">
+                    <div class="fas fa-star"></div>
+                    <div class="fas fa-star"></div>
+                    <div class="fas fa-star"></div>
+                    <div class="fas fa-star"></div>
+                    <div class="fas fa-star"></div>
+                    <span> (50) </span>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Exercitationem eaque temporibus possimus quia eos officiis 
+                    blanditiis quis laborum expedita aut fugit illo recusandae, quas 
+                    dolorum, officia ipsa facilis labore quidem.
+                </p>
+                <div class="price">$250.99</div>
+                <a href="#" class="button">buy now</a>
+            </div>
+            <div class="detail" data-target="product-7">
+                <i class="fas fa-times" id="close-detail"></i>
+                <img src="./assets/images/product-7.jpg" alt="">
+                <h3>modern furniture</h3>
+                <div class="stars">
+                    <div class="fas fa-star"></div>
+                    <div class="fas fa-star"></div>
+                    <div class="fas fa-star"></div>
+                    <div class="fas fa-star"></div>
+                    <div class="fas fa-star"></div>
+                    <span> (50) </span>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Exercitationem eaque temporibus possimus quia eos officiis 
+                    blanditiis quis laborum expedita aut fugit illo recusandae, quas 
+                    dolorum, officia ipsa facilis labore quidem.
+                </p>
+                <div class="price">$250.99</div>
+                <a href="#" class="button">buy now</a>
+            </div>
+            <div class="detail" data-target="product-8">
+                <i class="fas fa-times" id="close-detail"></i>
+                <img src="./assets/images/product-8.jpg" alt="">
+                <h3>modern furniture</h3>
+                <div class="stars">
+                    <div class="fas fa-star"></div>
+                    <div class="fas fa-star"></div>
+                    <div class="fas fa-star"></div>
+                    <div class="fas fa-star"></div>
+                    <div class="fas fa-star"></div>
+                    <span> (50) </span>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Exercitationem eaque temporibus possimus quia eos officiis 
+                    blanditiis quis laborum expedita aut fugit illo recusandae, quas 
+                    dolorum, officia ipsa facilis labore quidem.
+                </p>
+                <div class="price">$250.99</div>
+                <a href="#" class="button">buy now</a>
+            </div>
+        </div>
+    </section>
+    <!-- Products Section Ends Here -->
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <form action="">
+            <h3>subscribe for latest updates</h3>
+            <input type="email" placeholder="tap your email" class="box">
+            <input type="submit" value="subscribe" class="button">
+        </form>
+    </section>
+
+    <!-- About Section Starts Here -->
+    <section class="about" id="about">
+        <h1 class="heading"><span>about</span> us</h1>
+        <div class="flex">
+            <div class="image">
+                <img src="./assets/images/about-img-1.jpg" alt="">
+            </div>
+            <div class="content">
+                <span>welcome to furnishop</span>
+                <h3>we offer hight quality with lower prices</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, 
+                    commodi, iure porro maiores ea quam facere qui est non ut nobis? 
+                    Est totam perferendis beatae ex unde vitae sequi fugit.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi iusto 
+                    amet rem officiis at deleniti nostrum natus eum, voluptas 
+                    voluptatibus quis dolorem adipisci suscipit possimus qui. 
+                    Nihil nesciunt et corrupti!
+                </p>
+            </div>
+        </div>
+        <div class="flex revert">
+            <div class="image">
+                <img src="./assets/images/about-img-2.jpg" alt="">
+            </div>
+            <div class="content">
+                <span>welcome to furnishop</span>
+                <h3>we offer hight quality with lower prices</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, 
+                    commodi, iure porro maiores ea quam facere qui est non ut nobis? 
+                    Est totam perferendis beatae ex unde vitae sequi fugit.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi iusto 
+                    amet rem officiis at deleniti nostrum natus eum, voluptas 
+                    voluptatibus quis dolorem adipisci suscipit possimus qui. 
+                    Nihil nesciunt et corrupti!
+                </p>
+            </div>
+        </div>
+        <div class="flex">
+            <div class="image">
+                <img src="./assets/images/about-img-3.jpg" alt="">
+            </div>
+            <div class="content">
+                <span>welcome to furnishop</span>
+                <h3>we offer hight quality with lower prices</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, 
+                    commodi, iure porro maiores ea quam facere qui est non ut nobis? 
+                    Est totam perferendis beatae ex unde vitae sequi fugit.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi iusto 
+                    amet rem officiis at deleniti nostrum natus eum, voluptas 
+                    voluptatibus quis dolorem adipisci suscipit possimus qui. 
+                    Nihil nesciunt et corrupti!
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- About Section Ends Here -->
+
+    <!-- Services Section Starts Here -->
+    <section class="services" id="services">
+        <h1 class="heading">our <span>services</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="./assets/images/service-1.svg" alt="">
+                <h3>modern furniture</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus 
+                    similique ad et deserunt sunt temporibus veniam excepturi vitae sed
+                </p>
+                <a href="#" class="button">learn more</a>
+            </div>
+            <div class="box">
+                <img src="./assets/images/service-2.svg" alt="">
+                <h3>house desiging</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus 
+                    similique ad et deserunt sunt temporibus veniam excepturi vitae sed
+                </p>
+                <a href="#" class="button">learn more</a>
+            </div>
+            <div class="box">
+                <img src="./assets/images/service-3.svg" alt="">
+                <h3>24 / 7 support</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus 
+                    similique ad et deserunt sunt temporibus veniam excepturi vitae sed
+                </p>
+                <a href="#" class="button">learn more</a>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section Ends Here -->
+
+    <!-- Team Section Startss Here -->
+    <section class="team" id="team">
+        <h1 class="heading">our <span>team</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/images/team-member-1.jpg" alt="">
+                </div>
+                <div class="user">
+                    <h3>sara sara</h3>
+                    <span>designer</span>
+                </div>
+                <div class="media">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin"></i>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/images/team-member-2.jpg" alt="">
+                </div>
+                <div class="user">
+                    <h3>idriss idriss</h3>
+                    <span>designer</span>
+                </div>
+                <div class="media">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin"></i>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/images/team-member-3.jpg" alt="">
+                </div>
+                <div class="user">
+                    <h3>lora lora</h3>
+                    <span>designer</span>
+                </div>
+                <div class="media">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin"></i>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/images/team-member-4.jpg" alt="">
+                </div>
+                <div class="user">
+                    <h3>adam adam</h3>
+                    <span>designer</span>
+                </div>
+                <div class="media">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin"></i>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/images/team-member-5.jpg" alt="">
+                </div>
+                <div class="user">
+                    <h3>miranda miranda</h3>
+                    <span>designer</span>
+                </div>
+                <div class="media">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin"></i>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/images/team-member-6.jpg" alt="">
+                </div>
+                <div class="user">
+                    <h3>ibrahim ibrahim</h3>
+                    <span>designer</span>
+                </div>
+                <div class="media">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Team Section Ends Here -->
+
+    <!-- Blogs Section Starts Here -->
+    <section class="blogs" id="blogs">
+        <h1 class="heading">our <span>blogs</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/images/blog-img-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>blog title goes here...</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Necessitatibus nisi, quae iste id temporibus blanditiis odio 
+                        similique tenetur impedit laborum omnis incidunt.
+                    </p>
+                    <a href="#" class="button">read more</a>
+                    <div class="flex">
+                        <a href="#"><i class="fa fa-calendar"></i> 21st july, 2021</a>
+                        <a href="#"><i class="fa fa-user"></i>adam</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/images/blog-img-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>blog title goes here...</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Necessitatibus nisi, quae iste id temporibus blanditiis odio 
+                        similique tenetur impedit laborum omnis incidunt.
+                    </p>
+                    <a href="#" class="button">read more</a>
+                    <div class="flex">
+                        <a href="#"><i class="fa fa-calendar"></i> 21st july, 2021</a>
+                        <a href="#"><i class="fa fa-user"></i>adam</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/images/blog-img-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>blog title goes here...</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Necessitatibus nisi, quae iste id temporibus blanditiis odio 
+                        similique tenetur impedit laborum omnis incidunt.
+                    </p>
+                    <a href="#" class="button">read more</a>
+                    <div class="flex">
+                        <a href="#"><i class="fa fa-calendar"></i> 21st july, 2021</a>
+                        <a href="#"><i class="fa fa-user"></i>adam</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/images/blog-img-4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>blog title goes here...</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Necessitatibus nisi, quae iste id temporibus blanditiis odio 
+                        similique tenetur impedit laborum omnis incidunt.
+                    </p>
+                    <a href="#" class="button">read more</a>
+                    <div class="flex">
+                        <a href="#"><i class="fa fa-calendar"></i> 21st july, 2021</a>
+                        <a href="#"><i class="fa fa-user"></i>adam</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/images/blog-img-5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>blog title goes here...</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Necessitatibus nisi, quae iste id temporibus blanditiis odio 
+                        similique tenetur impedit laborum omnis incidunt.
+                    </p>
+                    <a href="#" class="button">read more</a>
+                    <div class="flex">
+                        <a href="#"><i class="fa fa-calendar"></i> 21st july, 2021</a>
+                        <a href="#"><i class="fa fa-user"></i>adam</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/images/blog-img-6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>blog title goes here...</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Necessitatibus nisi, quae iste id temporibus blanditiis odio 
+                        similique tenetur impedit laborum omnis incidunt.
+                    </p>
+                    <a href="#" class="button">read more</a>
+                    <div class="flex">
+                        <a href="#"><i class="fa fa-calendar"></i> 21st july, 2021</a>
+                        <a href="#"><i class="fa fa-user"></i>adam</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blogs Section Ends Here -->
+
+    <!-- Contact Section Starts Here -->
+    <section class="contact" id="contact">
+        <h1 class="heading"><span>contact</span> us</h1>
+        <div class="flex">
+            <form action="" class="form">
+                <h3>get in touch</h3>
+                <span>tap your name</span>
+                <input type="text" class="box">
+                <span>tap your number</span>
+                <input type="number" class="box">
+                <span>tap your email</span>
+                <input type="email" class="box">
+                <span>tap your message</span>
+                <textarea name="" class="box" cols="30" rows="10"></textarea>
+                <input type="submit" value="send message" class="button">
+            </form>
+            <iframe 
+                class="map" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30153.788252261566!2d72.82321484621745!3d19.141690214227783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1634314289650!5m2!1sen!2sin" allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </div>
+    </section>
+    <!-- Contact Section Ends Here -->
+
+    <!-- Footer Section Starts Here -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#home"> <i class="fas fa-arrow-right"></i> home</a>
+                <a href="#products"> <i class="fas fa-arrow-right"></i> products</a>
+                <a href="#about"> <i class="fas fa-arrow-right"></i> about</a>
+                <a href="#team"> <i class="fas fa-arrow-right"></i> team</a>
+                <a href="#blogs"> <i class="fas fa-arrow-right"></i> blogs</a>
+                <a href="#contact"> <i class="fas fa-arrow-right"></i> contact</a>
+            </div>
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i> my orders</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> my wishlist</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> my favorite</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> my account</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> terms of user</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#"> <i class="fab fa-facebook-f"></i> facebook</a>
+                <a href="#"> <i class="fab fa-instagram"></i> instagram</a>
+                <a href="#"> <i class="fab fa-twitter"></i> tewitter</a>
+                <a href="#"> <i class="fab fa-linkedin"></i> linkedin</a>
+                <a href="#"> <i class="fab fa-pinterest"></i> pinterest</a>
+            </div>
+        </div>
+        <div class="credit">created with <i class="fas fa-heart"></i> by <span>mouaad sadik</span> | all right reserved!
+        </div>
+    </section>
+    <!-- Footer Section Ends Here -->
+</body>
+<script src="./js/script.js"></script>
+</html>
