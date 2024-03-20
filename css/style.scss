@@ -521,7 +521,7 @@ section {
 }
 
 .newsletter {
-    background: url('/assets/images/newsletter-img.jpg') no-repeat;
+    background: url('./assets/images/newsletter-img.jpg') no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -881,6 +881,9 @@ section {
                 margin: 1rem;
                 font-size: 2rem;
             }
+        }
+        .search-form .search-box {
+            width: 80%;
         }
     }
     .products .products-details .detail {
